@@ -1,0 +1,4 @@
+{
+  "mongodb": "MONGODB_URI",
+  "sessionSecret": "SESSION_SECRET"
+}

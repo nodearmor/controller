@@ -1,0 +1,35 @@
+{
+  "name": "nodearmor-controller",
+  "version": "1.0.0",
+  "description": "Backend for both web UI and nodearmord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodearmor/controller.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nodearmor/controller/issues"
+  },
+  "homepage": "https://github.com/nodearmor/controller#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "config": "^3.0.1",
+    "connect-mongo": "^2.0.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-ws": "^4.0.0",
+    "helmet": "^3.15.0",
+    "module-alias": "^2.1.0",
+    "mongoose": "^5.4.9",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "_moduleAliases": {
+    "@db": "db"
+  }
+}
